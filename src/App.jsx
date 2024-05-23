@@ -1,4 +1,4 @@
-import React from "react";
+import GlobalStyle from "./GlobalStyle";
 import BoxContainer from "./components/BoxContainer";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <h1>Clickable Boxes</h1>
+      <GlobalStyle />
       <BoxContainer />
     </div>
   );

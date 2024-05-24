@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h3>Home페이지입니다.</h3>
-      <Link to={"/detail"}>Detail 페이지로 이동하기</Link>
+      <Link to={"/detail/1"}>Detail 페이지로 이동하기</Link>
     </div>
   );
 };
